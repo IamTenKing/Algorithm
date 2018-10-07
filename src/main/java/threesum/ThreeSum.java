@@ -1,0 +1,1 @@
+package threesum;/** * @author: jt * @date: 2018-10-4 */public interface ThreeSum {    int count(int[] nums);}
