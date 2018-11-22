@@ -1,0 +1,1 @@
+package BitMap;import java.util.BitSet;/** * @author: jt * @date: 2018-11-1 */public class BitMapTest {    public static void main(String[] args) {        BitSet bitSet = new BitSet(2147483647);        for (int i = 0; i < 2; i++) {            bitSet.set(i);        }        System.out.println(bitSet.get(0));    }}
